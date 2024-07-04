@@ -1,0 +1,306 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("Images/hero-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home a {
+  color: #fff;
+  transition: border-bottom 1s;
+}
+
+#home a:focus {
+  border-bottom: 2px solid #ffff;
+}
+
+#home h2::after {
+  content: "|";
+  color: #fff;
+  animation-name: typing;
+  animation-duration: 5.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#home nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 1rem;
+}
+
+#about {
+  background-color: #f5f5f5;
+}
+
+.about {
+  height: auto;
+}
+
+#services {
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+#services .col-lg-4 i {
+  transition: all 0.6s;
+}
+
+#services .col-lg-4 i:hover {
+  background-color: #0078ff;
+  border: 10px solid rgba(74, 158, 255, 0.7);
+}
+
+.work {
+  background-image: linear-gradient(
+      rgba(5, 90, 180, 0.7),
+      rgba(5, 90, 180, 0.7)
+    ),
+    url(/Images/counters-bg.jpg);
+  padding: 2rem;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.col-lg-4 img {
+  transition: transform 0.6s;
+  display: block;
+}
+
+.work .col-lg-3 {
+  width: 320px;
+  height: 200px;
+  margin: auto;
+}
+
+#work {
+  padding: 2rem;
+}
+
+#work i {
+  width: 30px;
+  height: 30px;
+}
+
+#work .card-img {
+  overflow: hidden;
+}
+
+#work .col-lg-4:hover img {
+  transform: scale(1.2);
+}
+
+#clients {
+  padding: 3rem;
+  background-image: linear-gradient(
+      rgba(5, 90, 180, 0.5),
+      rgba(5, 90, 180, 0.5)
+    ),
+    url(/Images/overlay-bg.jpg);
+  padding: 2rem;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#blog .col-lg-4 {
+  cursor: pointer;
+}
+
+#contact {
+  padding: 3rem;
+  margin-top: 3rem;
+  background-image: linear-gradient(
+      rgba(5, 90, 180, 0.5),
+      rgba(5, 90, 180, 0.5)
+    ),
+    url(/Images/overlay-bg.jpg);
+  padding: 2rem;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact input {
+  transition: outline 0.8s;
+}
+
+#contact input:focus {
+  outline: 2px solid #0d6efd;
+}
+
+@keyframes typing {
+  0% {
+    content: "D|";
+  }
+  2% {
+    content: "De|";
+  }
+  4% {
+    content: "Des|";
+  }
+
+  6% {
+    content: "Desi|";
+  }
+  8% {
+    content: "Design|";
+  }
+  10% {
+    content: "Designe|";
+  }
+  12% {
+    content: "Designer|";
+  }
+  14% {
+    content: "Designe|";
+  }
+  16% {
+    content: "Design|";
+  }
+
+  18% {
+    content: "Desig|";
+  }
+
+  20% {
+    content: "Desi|";
+  }
+
+  22% {
+    content: "Des|";
+  }
+  24% {
+    content: "De|";
+  }
+  26% {
+    content: "D|";
+  }
+  28% {
+    content: "De|";
+  }
+  30% {
+    content: "Dev|";
+  }
+  32% {
+    content: "Deve|";
+  }
+  34% {
+    content: "Devel|";
+  }
+  36% {
+    content: "Develo|";
+  }
+  38% {
+    content: "Develop|";
+  }
+  40% {
+    content: "Develope|";
+  }
+  42% {
+    content: "Developer|";
+  }
+
+  44% {
+    content: "Develope|";
+  }
+  46% {
+    content: "Develop|";
+  }
+  48% {
+    content: "Develo|";
+  }
+
+  50% {
+    content: "Devel|";
+  }
+
+  52% {
+    content: "Deve|";
+  }
+  54% {
+    content: "Dev|";
+  }
+
+  56% {
+    content: "De|";
+  }
+
+  58% {
+    content: "D|";
+  }
+
+  60% {
+    content: "|";
+  }
+
+  62% {
+    content: "F|";
+  }
+
+  64% {
+    content: "Fr|";
+  }
+  66% {
+    content: "Fre|";
+  }
+  68% {
+    content: "Free|";
+  }
+
+  70% {
+    content: "Freel|";
+  }
+  72% {
+    content: "Freela|";
+  }
+  74% {
+    content: "Freelan|";
+  }
+  76% {
+    content: "Freelanc|";
+  }
+  78% {
+    content: "Freelance|";
+  }
+  80% {
+    content: "Freelancer|";
+  }
+  82% {
+    content: "Freelance|";
+  }
+  84% {
+    content: "Freelanc|";
+  }
+  86% {
+    content: "Freelan|";
+  }
+  88% {
+    content: "Freela|";
+  }
+  90% {
+    content: "Freel|";
+  }
+  92% {
+    content: "Free|";
+  }
+  94% {
+    content: "Fre|";
+  }
+  96% {
+    content: "Fr|";
+  }
+  98% {
+    content: "F|";
+  }
+  100% {
+    content: "|";
+  }
+}
